@@ -1,0 +1,16 @@
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- Truncate all the tables
+TRUNCATE TABLE appointment;
+TRUNCATE TABLE billing;
+TRUNCATE TABLE diagnosis;
+TRUNCATE TABLE doctor;
+TRUNCATE TABLE medicine;
+TRUNCATE TABLE patient;
+TRUNCATE TABLE prescription;
+TRUNCATE TABLE receipt;
+TRUNCATE TABLE room;
+TRUNCATE TABLE stay;
+TRUNCATE TABLE treatment;
+
+SET FOREIGN_KEY_CHECKS = 1;
